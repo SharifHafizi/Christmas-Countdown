@@ -1,0 +1,16 @@
+{
+  "files": {
+    "main.css": "/Christmas-Countdown/static/css/main.3fc698a9.css",
+    "main.js": "/Christmas-Countdown/static/js/main.ef312ca7.js",
+    "static/media/new-year.jpg": "/Christmas-Countdown/static/media/new-year.e0a516442570d11adeb2.jpg",
+    "static/media/snowman-gd42f9d18a_1280.jpg": "/Christmas-Countdown/static/media/snowman-gd42f9d18a_1280.53c3b96a2ffc0c7bcc31.jpg",
+    "static/media/stars-g0a3a36647_1280.jpg": "/Christmas-Countdown/static/media/stars-g0a3a36647_1280.8d24e9f878c56092f74d.jpg",
+    "index.html": "/Christmas-Countdown/index.html",
+    "main.3fc698a9.css.map": "/Christmas-Countdown/static/css/main.3fc698a9.css.map",
+    "main.ef312ca7.js.map": "/Christmas-Countdown/static/js/main.ef312ca7.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.3fc698a9.css",
+    "static/js/main.ef312ca7.js"
+  ]
+}

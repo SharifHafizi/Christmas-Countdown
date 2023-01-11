@@ -1,0 +1,22 @@
+:root {
+  --color-glass: rgba(255, 255, 255, 0.05);
+  --color-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+.countdown {
+  width: 700px;
+  height: 100px;
+  border: 4px solid rgb(203, 9, 9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 100px;
+  letter-spacing: 0.15rem;
+  background-color: var(--color-glass);
+  backdrop-filter: blur(12px);
+  box-shadow: var(--color-shadow);
+}
+.countdown span {
+  margin-left: 5px;
+  margin-right: 5px;
+  color: white;
+}

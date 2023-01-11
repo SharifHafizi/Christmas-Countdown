@@ -1,0 +1,69 @@
+:root {
+  --color-glass: rgba(255, 255, 255, 0.05);
+  --color-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
+.text {
+  margin: 0 20px 0 20px;
+}
+.about {
+  height: 93vh;
+  width: 100vw;
+  color: aliceblue;
+  background-color: darkred;
+  font-size: 40px;
+  text-align: center;
+  position: absolute;
+  background-image: url("../img/snowman-gd42f9d18a_1280.jpg");
+  background-repeat: round;
+}
+.comment {
+  height: 93vh;
+  width: 100vw;
+  color: aliceblue;
+  background-color: darkred;
+  font-size: 40px;
+  text-align: center;
+  position: absolute;
+  background-image: url("../img/stars-g0a3a36647_1280.jpg");
+  background-repeat: round;
+  background-size: cover;
+}
+input {
+  width: 250px;
+  height: 25px;
+  background-color: var(--color-glass);
+  backdrop-filter: blur(12px);
+  box-shadow: var(--color-shadow);
+  border-radius: 8px;
+  color: white;
+  border: 1px solid hwb(180 1% 0%);
+}
+button {
+  width: 255px;
+  height: 30px;
+  color: white;
+  font-weight: 700;
+  font-size: large;
+  text-align: center;
+  background-color: var(--color-glass);
+  backdrop-filter: blur(12px);
+  box-shadow: var(--color-shadow);
+  border-radius: 8px;
+  border: 1px solid hwb(180 1% 0%);
+}
+.greetingsBox {
+  font-family: "Times New Roman", Times, serif;
+  width: 500px;
+  height: 150px;
+  border: 3px solid hwb(180 1% 0%);
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 20px;
+  background-color: var(--color-glass);
+  backdrop-filter: blur(12px);
+  box-shadow: var(--color-shadow);
+  letter-spacing: 0.1rem;
+  font-size: 20px;
+  border-radius: 8px;
+}

@@ -3,6 +3,7 @@ export default function Comment() {
   const name = useRef();
   const message = useRef();
   const [Name, setName] = useState();
+  const [arrayName, setArrayName] = useState([Name]);
   const [Message, setMessage] = useState();
 
   const handleClick = () => {
@@ -11,7 +12,15 @@ export default function Comment() {
     const localStorageData = JSON.parse(localStorage.getItem("initial value"));
     setName(() => localStorageData.name);
     setMessage(() => localStorageData.message);
+    addItem();
   };
+
+  function addItem() {
+    setArrayName((oldValue) => {
+      return [...oldValue, Name];
+    });
+  }
+  const arr1 = arrayName.map((item, i) => <ul key={i}>{item}</ul>);
 
   const currentDate = new Date().toJSON().slice(0, 10);
   console.log(currentDate);
@@ -26,7 +35,7 @@ export default function Comment() {
       <br />
       <button onClick={handleClick}>Submit</button>
       <div className="greetingsBox">
-        <p>Greeting From: {Name}</p>
+        <p>Greeting From: {arr1}</p>
         <p>Message: {Message}</p>
         <p>
           Date:{currentDate}🕒 {currentTime}

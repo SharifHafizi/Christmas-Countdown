@@ -17,9 +17,9 @@ function App() {
         <Navbar />
         <div className="App">
           <span>Happy New Year🎇</span>
-
+          <Countdown />
           <Routes>
-            <Route path="/" element={<Countdown />} />
+            <Route path="/" />
             <Route path="/about" element={<About />} />
             <Route path="/comment" element={<Comment />} />
           </Routes>

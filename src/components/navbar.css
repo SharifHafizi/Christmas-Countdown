@@ -1,6 +1,10 @@
+:root {
+  --color-glass: rgba(255, 255, 255, 0.05);
+  --color-shadow: 0 0 25px rgba(0, 0, 0, 0.5);
+}
 @import url("https://fonts.cdnfonts.com/css/happy-new-year");
 .navbar {
-  font-family: "Happy New Year", sans-serif;
+  font-family: "Courier New", Courier, monospace;
   color: aliceblue;
   letter-spacing: 0.1rem;
   opacity: 0.9;
@@ -15,7 +19,7 @@
   align-items: center;
   margin-left: 30px;
 
-  font-size: 25px;
+  font-size: 15px;
 }
 .h2 {
   display: flex;
@@ -23,9 +27,20 @@
   margin-right: 50px;
   gap: 20px;
 
-  font-size: 25px;
+  font-size: 15px;
 }
 .link {
   text-decoration: none;
   color: white;
+}
+@media (max-width: 600px) {
+  h1 {
+    font-size: x-small;
+  }
+  .h2 {
+    display: flex;
+
+    gap: 5px;
+    font-size: 8px;
+  }
 }

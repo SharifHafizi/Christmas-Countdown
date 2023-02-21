@@ -35,7 +35,7 @@ export default function Comment() {
       <br />
       <button onClick={handleClick}>Submit</button>
       <div className="greetingsBox">
-        <p>Greeting From: {arr1}</p>
+        <p>Greeting From: {Name}</p>
         <p>Message: {Message}</p>
         <p>
           Date:{currentDate}🕒 {currentTime}

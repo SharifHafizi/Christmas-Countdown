@@ -3,12 +3,7 @@ import Countdown from "./components/Countdown";
 import Navbar from "./components/Navbar";
 import Comment from "./routs/Comment";
 import About from "./routs/About";
-import {
-  BrowserRouter as Router,
-  Switch,
-  Route,
-  Routes,
-} from "react-router-dom";
+import { BrowserRouter as Router, Route, Routes } from "react-router-dom";
 
 function App() {
   return (
@@ -16,7 +11,7 @@ function App() {
       <>
         <Navbar />
         <div className="App">
-          <span>Happy New Year🎇</span>
+          <span className="Happy">Happy New Year🎇</span>
           <Countdown />
           <Routes>
             <Route path="/" />

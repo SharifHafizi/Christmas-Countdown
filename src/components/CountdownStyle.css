@@ -20,3 +20,18 @@
   margin-right: 5px;
   color: white;
 }
+@media (max-width: 700px) {
+  .countdown {
+    background-color: var(--color-glass);
+    backdrop-filter: blur(12px);
+    box-shadow: var(--color-shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    width: 200px;
+    height: 470px;
+    line-height: 42px;
+    margin-bottom: 20px;
+  }
+}

@@ -9,7 +9,8 @@
   justify-content: center;
   align-items: center;
   gap: 30px;
-
+  min-width: 700px;
+  min-height: 626px;
   font-family: "Happy New Year", sans-serif;
   background-image: url("./img/new-year.jpg");
   background-size: cover;
@@ -18,8 +19,8 @@ span {
   color: rgb(255, 255, 255);
   font-size: 60px;
 }
-@media (max-width: 500px) {
+/* @media (max-width: 500px) {
   .App .Happy {
     font-size: 40px;
   }
-}
+} */
